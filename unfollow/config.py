@@ -327,6 +327,45 @@ end_message_a = "[white on purple]உங்களிடம் உள்ள {foll
 end_message_b = "[white on magenta]நற்பணியை தக்கவைத்துக்கொள்ளவும்![/white on magenta]"
 thankyou_message = "[white on blue]இந்தத் திட்டத்தைப் பயன்படுத்தியதற்கு நன்றி[/white on blue]"
 
+[locale.english.simple]
+welcome_message = "Welcome to who-unfollowed-me Python implementation by Zac the Wise"
+fetched_followers_message = "Fetched github followers"
+no_unfollows_message = "No unfollows!"
+end_message = "You have {follower_num} followers. Keep up the good work\\n"
+thankyou_message = "Thanks for using this project"
+
+#-----------------------------------------------------------------------------------------hebrew
+
+
+[locale.hebrew.regular]
+welcome_message = ":dancer: [purple]ברוך הבא ל[/purple] [red]מי-הפסיק-לעקוב-אחרי[/red][blue]  אימפלמנטציה פייתון [/blue] על ידי [#FFD700]Zac the Wise(זאק החכם)[#FFD700]"
+fetched_followers_message = "[green]✔ [underline]אסף עוקבי גיט האב"
+last_week_unfollowers = "[purple]✔ [underline]מבטלי עוקבים מהשבוע האחרון"
+no_unfollows_message = "[green]:raised_hands: [underline]!אין מסירי עוקב"
+end_message = ":fire: יש לך {follower_num}עוקבים  תמשיך את העבודה הטובה תותח\\n"
+thankyou_message = ":pray: תודה שהשתמשת בפרויקט"
+
+[locale.hebrew.panels]
+welcome_message = ":dancer: [purple] ברוך הבא ל[/purple] [red] מי-הסיר-לי-עוקב [/red][blue] אימפלמנטציה פייתון [/blue] על ידי [#FFD700]Zac the Wise(זאק החכם)[#FFD700]"
+fetched_followers_message = "[green]✔ [underline]אסף עוקבי גיט האב"
+last_week_unfollowers = "[purple]✔ [underline] מבטלי עוקבים מהשבוע האחרון "
+no_unfollows_message = "[white on #308012] !אין מסירי עוקב [/white on #308012] "
+end_message = ":fire: יש לך {follower_num} עוקבים  תמשיך את העבודה הטובה תותח \\n"
+thankyou_message = ":pray: תודה על שהשתמשת בפרויקט"
+
+[locale.hebrew.bubbles]
+welcome_message_a = "[white on purple] ברוך הבא ל [/white on purple]"
+welcome_message_b = "[white on red] מי-הסיר-לי-עוקב [/white on red]"
+welcome_message_c = "[white on blue]אימפלמנטציה פייתון[/white on blue]"
+welcome_message_d = "[white on dark_goldenrod]by Zac the Wise(זאק החכם)[/white on dark_goldenrod]"
+fetched_followers_message = "[white on cyan]אסף עוקבי גיט האב[/white on cyan]"
+last_week_unfollowers = "[purple]✔ [underline]מבטלי עוקבים מהשבוע האחרון"
+no_unfollows_message = "[white on green4]!אין מסירי עוקב[/white on green4]"
+end_message_a = "[white on purple]יש לך {follower_num} עוקבים.[/white on purple]"
+end_message_b = "[white on magenta]  תמשיך את העבודה הטובה תותח[/white on magenta]"
+thankyou_message = "[white on blue]תודה על שהשתמשת בפרויקט[/white on blue]"
+
+
 """
 
 # Future proof by allowing different messages for different versions
